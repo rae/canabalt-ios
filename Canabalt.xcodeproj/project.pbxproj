@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -165,6 +165,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		E1EE63C01D2BA6B900FA5A1F /* DummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EE63BF1D2BA6B900FA5A1F /* DummyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -358,6 +359,43 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Canabalt_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canabalt_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Canabalt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Canabalt-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E1EE63BE1D2BA6B900FA5A1F /* DummyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyViewController.h; sourceTree = "<group>"; };
+		E1EE63BF1D2BA6B900FA5A1F /* DummyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyViewController.m; sourceTree = "<group>"; };
+		E1EE63C51D2BBD5000FA5A1F /* Flash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flash.h; sourceTree = "<group>"; };
+		E1EE63C61D2BBD5000FA5A1F /* FlashFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashFunction.h; sourceTree = "<group>"; };
+		E1EE63C71D2BBD5000FA5A1F /* FlashObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashObject.h; sourceTree = "<group>"; };
+		E1EE63C81D2BBD5000FA5A1F /* FlashPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashPoint.h; sourceTree = "<group>"; };
+		E1EE63C91D2BBD5000FA5A1F /* FlashRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRectangle.h; sourceTree = "<group>"; };
+		E1EE63CB1D2BBD5000FA5A1F /* Flixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flixel.h; sourceTree = "<group>"; };
+		E1EE63CC1D2BBD5000FA5A1F /* FlixelAPTBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlixelAPTBindings.h; sourceTree = "<group>"; };
+		E1EE63CD1D2BBD5000FA5A1F /* FlxAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxAnim.h; sourceTree = "<group>"; };
+		E1EE63CE1D2BBD5000FA5A1F /* FlxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxButton.h; sourceTree = "<group>"; };
+		E1EE63CF1D2BBD5000FA5A1F /* FlxEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxEmitter.h; sourceTree = "<group>"; };
+		E1EE63D01D2BBD5000FA5A1F /* FlxFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxFade.h; sourceTree = "<group>"; };
+		E1EE63D11D2BBD5000FA5A1F /* FlxFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxFlash.h; sourceTree = "<group>"; };
+		E1EE63D21D2BBD5000FA5A1F /* FlxG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxG.h; sourceTree = "<group>"; };
+		E1EE63D31D2BBD5000FA5A1F /* FlxGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxGame.h; sourceTree = "<group>"; };
+		E1EE63D41D2BBD5000FA5A1F /* FlxGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxGLView.h; sourceTree = "<group>"; };
+		E1EE63D51D2BBD5000FA5A1F /* FlxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxGroup.h; sourceTree = "<group>"; };
+		E1EE63D61D2BBD5000FA5A1F /* FlxList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxList.h; sourceTree = "<group>"; };
+		E1EE63D71D2BBD5000FA5A1F /* FlxManagedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxManagedSprite.h; sourceTree = "<group>"; };
+		E1EE63D81D2BBD5000FA5A1F /* FlxObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxObject.h; sourceTree = "<group>"; };
+		E1EE63D91D2BBD5000FA5A1F /* FlxPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxPoint.h; sourceTree = "<group>"; };
+		E1EE63DA1D2BBD5000FA5A1F /* FlxQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxQuadTree.h; sourceTree = "<group>"; };
+		E1EE63DB1D2BBD5000FA5A1F /* FlxQuake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxQuake.h; sourceTree = "<group>"; };
+		E1EE63DC1D2BBD5000FA5A1F /* FlxRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxRect.h; sourceTree = "<group>"; };
+		E1EE63DD1D2BBD5000FA5A1F /* FlxSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxSave.h; sourceTree = "<group>"; };
+		E1EE63DE1D2BBD5000FA5A1F /* FlxSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxSound.h; sourceTree = "<group>"; };
+		E1EE63DF1D2BBD5000FA5A1F /* FlxSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxSprite.h; sourceTree = "<group>"; };
+		E1EE63E01D2BBD5000FA5A1F /* FlxState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxState.h; sourceTree = "<group>"; };
+		E1EE63E11D2BBD5000FA5A1F /* FlxText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxText.h; sourceTree = "<group>"; };
+		E1EE63E21D2BBD5000FA5A1F /* FlxTileblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxTileblock.h; sourceTree = "<group>"; };
+		E1EE63E31D2BBD5000FA5A1F /* FlxTouches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxTouches.h; sourceTree = "<group>"; };
+		E1EE63E41D2BBD5000FA5A1F /* FlxU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlxU.h; sourceTree = "<group>"; };
+		E1EE63E61D2BBD5000FA5A1F /* SemiSecret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiSecret.h; sourceTree = "<group>"; };
+		E1EE63E71D2BBD5000FA5A1F /* SemiSecretFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiSecretFont.h; sourceTree = "<group>"; };
+		E1EE63E81D2BBD5000FA5A1F /* SemiSecretText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiSecretText.h; sourceTree = "<group>"; };
+		E1EE63E91D2BBD5000FA5A1F /* SemiSecretTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiSecretTexture.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -665,6 +703,8 @@
 				1D3623250D0F684500981E51 /* CanabaltAppDelegate.m */,
 				076E6DBE1180DFF60084ECBC /* flixel */,
 				076E6DA81180D85D0084ECBC /* Canabalt */,
+				E1EE63BE1D2BA6B900FA5A1F /* DummyViewController.h */,
+				E1EE63BF1D2BA6B900FA5A1F /* DummyViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -680,6 +720,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E1EE63C31D2BBD5000FA5A1F /* Headers */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -736,6 +777,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1EE63C31D2BBD5000FA5A1F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE63C41D2BBD5000FA5A1F /* Flash */,
+				E1EE63CA1D2BBD5000FA5A1F /* Flixel */,
+				E1EE63E51D2BBD5000FA5A1F /* SemiSecret */,
+			);
+			name = Headers;
+			path = "flixel-ios/Headers";
+			sourceTree = "<group>";
+		};
+		E1EE63C41D2BBD5000FA5A1F /* Flash */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE63C51D2BBD5000FA5A1F /* Flash.h */,
+				E1EE63C61D2BBD5000FA5A1F /* FlashFunction.h */,
+				E1EE63C71D2BBD5000FA5A1F /* FlashObject.h */,
+				E1EE63C81D2BBD5000FA5A1F /* FlashPoint.h */,
+				E1EE63C91D2BBD5000FA5A1F /* FlashRectangle.h */,
+			);
+			path = Flash;
+			sourceTree = "<group>";
+		};
+		E1EE63CA1D2BBD5000FA5A1F /* Flixel */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE63CB1D2BBD5000FA5A1F /* Flixel.h */,
+				E1EE63CC1D2BBD5000FA5A1F /* FlixelAPTBindings.h */,
+				E1EE63CD1D2BBD5000FA5A1F /* FlxAnim.h */,
+				E1EE63CE1D2BBD5000FA5A1F /* FlxButton.h */,
+				E1EE63CF1D2BBD5000FA5A1F /* FlxEmitter.h */,
+				E1EE63D01D2BBD5000FA5A1F /* FlxFade.h */,
+				E1EE63D11D2BBD5000FA5A1F /* FlxFlash.h */,
+				E1EE63D21D2BBD5000FA5A1F /* FlxG.h */,
+				E1EE63D31D2BBD5000FA5A1F /* FlxGame.h */,
+				E1EE63D41D2BBD5000FA5A1F /* FlxGLView.h */,
+				E1EE63D51D2BBD5000FA5A1F /* FlxGroup.h */,
+				E1EE63D61D2BBD5000FA5A1F /* FlxList.h */,
+				E1EE63D71D2BBD5000FA5A1F /* FlxManagedSprite.h */,
+				E1EE63D81D2BBD5000FA5A1F /* FlxObject.h */,
+				E1EE63D91D2BBD5000FA5A1F /* FlxPoint.h */,
+				E1EE63DA1D2BBD5000FA5A1F /* FlxQuadTree.h */,
+				E1EE63DB1D2BBD5000FA5A1F /* FlxQuake.h */,
+				E1EE63DC1D2BBD5000FA5A1F /* FlxRect.h */,
+				E1EE63DD1D2BBD5000FA5A1F /* FlxSave.h */,
+				E1EE63DE1D2BBD5000FA5A1F /* FlxSound.h */,
+				E1EE63DF1D2BBD5000FA5A1F /* FlxSprite.h */,
+				E1EE63E01D2BBD5000FA5A1F /* FlxState.h */,
+				E1EE63E11D2BBD5000FA5A1F /* FlxText.h */,
+				E1EE63E21D2BBD5000FA5A1F /* FlxTileblock.h */,
+				E1EE63E31D2BBD5000FA5A1F /* FlxTouches.h */,
+				E1EE63E41D2BBD5000FA5A1F /* FlxU.h */,
+			);
+			path = Flixel;
+			sourceTree = "<group>";
+		};
+		E1EE63E51D2BBD5000FA5A1F /* SemiSecret */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE63E61D2BBD5000FA5A1F /* SemiSecret.h */,
+				E1EE63E71D2BBD5000FA5A1F /* SemiSecretFont.h */,
+				E1EE63E81D2BBD5000FA5A1F /* SemiSecretText.h */,
+				E1EE63E91D2BBD5000FA5A1F /* SemiSecretTexture.h */,
+			);
+			path = SemiSecret;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -762,6 +870,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 9KWN4997N5;
@@ -769,7 +878,7 @@
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Canabalt" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -947,6 +1056,7 @@
 				07BE0146119CAE480021EBD9 /* RepeatBlock.m in Sources */,
 				07BE01C211A1DD4F0021EBD9 /* Building.m in Sources */,
 				07BE029911A22DA90021EBD9 /* Hall.m in Sources */,
+				E1EE63C01D2BA6B900FA5A1F /* DummyViewController.m in Sources */,
 				07205DA41288705800FCC229 /* UIImage+RIFAddition.m in Sources */,
 				0714D84112B6C25B002601AB /* Dove.m in Sources */,
 				0714164A12B86C55007757E5 /* GibEmitter.m in Sources */,
@@ -960,10 +1070,6 @@
 		0775198911C2FBE400B3FF3D /* App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Darrel Johnson";
 				COMPRESS_PNG_FILES = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = YES;
@@ -972,10 +1078,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "739A9136-0A9B-406F-8D3B-159EA2D34F05";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "";
 			};
 			name = "App Store";
 		};
@@ -983,11 +1087,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Canabalt_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
@@ -999,7 +1101,6 @@
 				PRODUCT_NAME = Canabalt;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "739A9136-0A9B-406F-8D3B-159EA2D34F05";
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1009,12 +1110,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Canabalt_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
@@ -1026,7 +1126,6 @@
 				PRODUCT_NAME = Canabalt;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4754EFE-9CDA-4260-B87B-1BBEBEB4A168";
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1035,11 +1134,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Canabalt_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
@@ -1051,7 +1148,6 @@
 				PRODUCT_NAME = Canabalt;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4754EFE-9CDA-4260-B87B-1BBEBEB4A168";
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1060,32 +1156,24 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Darrel Johnson (J888WX2QM5)";
 				COMPRESS_PNG_FILES = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_THUMB_SUPPORT = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4754EFE-9CDA-4260-B87B-1BBEBEB4A168";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Darrel Johnson (J888WX2QM5)";
 				COMPRESS_PNG_FILES = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
@@ -1096,10 +1184,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "508317EB-FEF7-4E7C-A4E7-EC0F3E638C59";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "";
 			};
 			name = Release;
 		};

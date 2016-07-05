@@ -16,8 +16,8 @@
 #import <Flash/Flash.h>
 
 @interface FlashFunction ()
-@property (retain) id target;
-@property (assign) SEL action;
+@property (nonatomic, retain) id target;
+@property (nonatomic, assign) SEL action;
 - (void) setupInvocation;
 @end
 

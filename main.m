@@ -14,10 +14,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CanabaltAppDelegate.h"
 
 int main(int argc, char *argv[]) {
   NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-  int retVal = UIApplicationMain(argc, argv, nil, @"CanabaltAppDelegate");
+  int retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([CanabaltAppDelegate class]));
   [pool release];
   return retVal;
 }
