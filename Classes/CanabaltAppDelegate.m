@@ -18,8 +18,6 @@
 
 #import <SemiSecret/SemiSecretTexture.h>
 
-#import "DummyViewController.h"
-
 void preloadTextureAtlases()
 {
   NSDictionary * infoDictionary = nil;
@@ -56,22 +54,16 @@ void preloadTextureAtlases()
 {
     
   [UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
-  
+    
   //in canabalt, we never want linear filtering (not even on ipad)
   [SemiSecretTexture setTextureFilteringMode:SSTextureFilteringNearest];
   
   [application setStatusBarOrientation:UIInterfaceOrientationLandscapeLeft animated:NO];
 
   game = [[Canabalt alloc] init];
-
+    
   //preload textures here, now that opengl stuff should be created
   preloadTextureAtlases();
-  
-  self.window = [[UIApplication sharedApplication] windows][0];
-    UIViewController *viewController = [[DummyViewController alloc] init];
-    [self.window setRootViewController:viewController];
-    [self.window makeKeyAndVisible];
-
     
   return YES;
 }

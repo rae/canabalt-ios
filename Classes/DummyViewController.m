@@ -2,7 +2,8 @@
 //  DummyViewController.m
 //  Canabalt
 //
-//  Created by Ville_Public on 7/5/16.
+//  For iOS 9 compatibility,
+//  Created by Isak Pao on 7/5/16.
 //
 //
 
@@ -40,11 +41,15 @@
 */
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations{
-    return UIInterfaceOrientationMaskLandscapeRight;
+    return UIInterfaceOrientationMaskLandscapeLeft;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationLandscapeLeft;
 }
 
 - (BOOL)shouldAutorotate{
-    return NO;
+    return YES;
 }
 
 

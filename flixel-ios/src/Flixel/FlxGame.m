@@ -22,6 +22,8 @@
 
 #include <unistd.h>
 
+#import "DummyViewController.h"
+
 //essentially locks the framerate to 30fps minimum
 //static float MAX_ELAPSED = 0.0333;
 //20fps minimum
@@ -206,6 +208,9 @@ static CFTimeInterval gameStart;
 
     [window makeKeyAndVisible];
     
+    UIViewController* vc = [[DummyViewController alloc] init];
+    [window setRootViewController:vc];
+      
     [window addSubview:glView];
     glView.center = CGPointMake(window.bounds.size.width/2,
 				window.bounds.size.height/2);
