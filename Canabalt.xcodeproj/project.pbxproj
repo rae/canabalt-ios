@@ -873,7 +873,7 @@
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 9KWN4997N5;
+						DevelopmentTeam = 9925EG8CG6;
 					};
 				};
 			};
@@ -1096,7 +1096,7 @@
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/flixel-ios/Headers\"";
 				INFOPLIST_FILE = "Canabalt-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.Canabalt;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Canabalt.windperson;
 				PRODUCT_NAME = Canabalt;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1118,7 +1118,7 @@
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/flixel-ios/Headers\"";
 				INFOPLIST_FILE = "Canabalt-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.Canabalt;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Canabalt.windperson;
 				PRODUCT_NAME = Canabalt;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1137,7 +1137,7 @@
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/flixel-ios/Headers\"";
 				INFOPLIST_FILE = "Canabalt-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.Canabalt;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Canabalt.windperson;
 				PRODUCT_NAME = Canabalt;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

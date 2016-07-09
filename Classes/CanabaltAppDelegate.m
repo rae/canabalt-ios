@@ -53,12 +53,8 @@ void preloadTextureAtlases()
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-  [UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
-    
   //in canabalt, we never want linear filtering (not even on ipad)
   [SemiSecretTexture setTextureFilteringMode:SSTextureFilteringNearest];
-  
-  [application setStatusBarOrientation:UIInterfaceOrientationLandscapeLeft animated:NO];
 
   game = [[Canabalt alloc] init];
     
